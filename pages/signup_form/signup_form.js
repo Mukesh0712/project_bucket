@@ -1,6 +1,3 @@
-
-
-
 document.querySelectorAll(".text-input").forEach((element) => {
     element.addEventListener("blur", (event) => {
         if (event.target.value != "") {

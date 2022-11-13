@@ -17,11 +17,3 @@ function backBtn() {
     let back = document.querySelector(".input-screen").value;
     document.querySelector(".input-screen").value = back.substring(0, back.length - 1);
 }
-
-function on() {
-
-}
-
-function off() {
-    document.querySelector("input").disabled;
-}

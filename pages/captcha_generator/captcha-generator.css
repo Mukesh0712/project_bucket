@@ -11,11 +11,13 @@
     max-width: 520px;
     width: 90%;
     margin: 0 auto;
-    background-color: #ffffff;
+    background: rgb(255, 255, 255, 0.05);
     padding: 40px;
     border-radius: 4px;
     color: #505e6c;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+
 }
 
 .login-clean form .form-control {
@@ -28,6 +30,7 @@
     color: inherit;
     text-indent: 1px;
     height: 42px;
+    
 }
 
 .login-clean form .btn-primary {
@@ -66,7 +69,6 @@
 
 #toast.show {
     visibility: visible;
-
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 

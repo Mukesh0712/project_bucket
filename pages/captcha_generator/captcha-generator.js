@@ -14,6 +14,7 @@ function genPass() {
 
     document.getElementById('pass').value = password;
 }
+
 function copy() {
     var copyText = document.getElementById("pass");
     copyText.setSelectionRange(0, 9999);

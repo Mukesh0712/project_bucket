@@ -1,13 +1,9 @@
 .border-button {
-    color: #fff;
-    border: #fff 1px solid;
     font-weight: 600;
 }
 
 .border-button:hover {
-    border: #fff 1px solid;
-    background: #fff;
-    color: #000;
+    background: rgba(211, 211, 211, 0.185);
 
 }
 
@@ -203,6 +199,10 @@ section::after {
     text-decoration: none;
 }
 
+.sub-links a:hover{
+    color: #fff;
+}
+
 .social-menu {
     padding: 5px;
     padding-top: 50px;
@@ -262,4 +262,18 @@ section::after {
 
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #002E6E;
+}
+
+.input-design{
+    background: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+}
+
+.form-desgin{
+    background: rgb(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+
 }
