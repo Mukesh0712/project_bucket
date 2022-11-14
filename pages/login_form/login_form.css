@@ -37,7 +37,9 @@ body::after {
     clip-path: circle(20% at 10% 10%);
 }
 
-
+.label{
+    color: #fff;
+}
 h2,
 p {
     margin: 0;
@@ -51,7 +53,7 @@ main {
 }
 
 .container {
-    background-color: #fff;
+    background: rgb(255, 255, 255, 0.05);
     padding: 40px 20px;
     border-radius: 5px;
     width: 400px;
@@ -89,7 +91,7 @@ h2 {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
-    border: 2px solid blueviolet;
+    border: 2px solid black;
     font-family: inherit;
 }
 
@@ -177,12 +179,12 @@ button {
     font-family: inherit;
     width: 100%;
     padding: 10px;
-    background-color: blueviolet;
     color: #fff;
+    border: none;
     font-size: 15px;
     border-radius: 4px;
-    border: 2px solid blueviolet;
     cursor: pointer;
+    background: transparent;
     transition: all .5s ease-in-out;
 }
 
@@ -191,9 +193,8 @@ button:focus {
 }
 
 button:hover {
-    color: blueviolet;
-    border: 2px solid blueviolet;
-    background: transparent;
+    color: #fff;
+    background: rgba(211, 211, 211, 0.185);
 }
 
 .complete-modal {
@@ -210,7 +211,13 @@ button:hover {
     color: green;
     text-align: center;
 }
-
+.signup{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 .container.complete .complete-modal {
     visibility: visible;
 }

@@ -8,3 +8,8 @@ document.querySelectorAll(".text-input").forEach((element) => {
     });
 });
 
+function submit(){
+    setTimeout(() =>{
+        alert('Registration Successfully');
+    },3000);
+}
