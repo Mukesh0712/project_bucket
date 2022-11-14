@@ -38,14 +38,18 @@ body::before {
     letter-spacing: 5px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     width: 400px;
+<<<<<<< HEAD
     height: 300px;
     padding: 4px;
+=======
+    padding: 14px;
+>>>>>>> dbcd4fc5f2be6f8d62320fb25f94ff73532cc496
     border-radius: 20px;
     background: rgb(255, 255, 255, 0.05);
     color: azure;
     border: 2px double white;
     backdrop-filter: blur(10px);
-
+    margin-left: 20%;
 
 }
 
@@ -56,6 +60,14 @@ h1 span {
     position: relative;
     font-size: 50px;
     color: #fff;
+}
+.heading-container{
+    border-radius: 15px;
+    border: 2px solid red;
+    width:700px;
+    height:300px;
+    box-shadow: 2px 3px 5px 4px grey;
+    cursor: pointer;
 }
 
 @keyframes bounce {
